@@ -1,11 +1,19 @@
 * {
-    padding: 0px;
-    margin: 0px;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+  }
+  
 
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+.image-links {
+    display: contents;
+  }
 
 .profile-pic {
     align-self: center;
@@ -124,3 +132,4 @@ footer {
     text-align: center;
     color: blueviolet;
 }
+
