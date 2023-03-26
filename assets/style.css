@@ -29,10 +29,18 @@ header {
     margin: 16px;
 
 }
-
+.work,
 .about-me {
-    width: 25%;
-    min-height: 33vh;
-    text-align: left;
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    color: blueviolet;
 
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    color: blueviolet;
 }
