@@ -19,11 +19,20 @@ body {
 header {
     color: aliceblue;
     background-color: black;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 20px;
     width: 100%;
-    min-height: 100px;
-    max-height: 350px;
+    min-height: 150px;
 }
 
+.nav-bar {
+    display: flex;
+    margin: 16px;
+
+}
+
+.about-me {
+    width: 25%;
+    min-height: 33vh;
+    text-align: left;
+
+}
