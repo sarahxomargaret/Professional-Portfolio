@@ -31,6 +31,9 @@ header {
     background-size: cover;
     width: 100%;
     min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav-bar {
@@ -70,8 +73,13 @@ p {
 .work-header {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-height: 50px;
+    width: 20%;
+    /* max-height: 50px; */
+}
+
+.work-images {
+    border-left: solid 3px black;
+    padding-left: 10px;
 }
 
 .work-image-top img {
@@ -84,7 +92,7 @@ p {
 }
 
 .work-image-left img {
-    display: flex;
+    /* display: flex; */
     width: 40%;
     object-fit: cover;
     overflow: hidden;
@@ -92,12 +100,12 @@ p {
 }
 
 .work-image-left {
-    display: flex;
-    position: relative;
+    /* display: flex;
+    position: relative; */
 }
 
 .work-image-right img {
-    display: flex;
+    /* display: flex; */
     width: 40%;
     object-fit: cover;
     overflow: hidden;
@@ -105,8 +113,13 @@ p {
 }
 
 .work-image-right {
+    /* display: flex;
+    position: relative; */
+}
+
+.work-image-bottom {
     display: flex;
-    position: relative;
+    flex-direction: row;
 }
 
 
