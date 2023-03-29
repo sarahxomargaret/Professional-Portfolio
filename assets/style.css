@@ -24,6 +24,10 @@ body {
     object-fit: contain;
 }
 
+.name {
+    padding-left: 45px;
+    padding-top: 10px;
+}
 
 header {
     color: aliceblue;
@@ -38,7 +42,7 @@ header {
 
 .nav-bar {
     display: flex;
-    margin: 16px;
+    margin: 100px;
     flex-direction: row-reverse;
 
 }
@@ -49,18 +53,20 @@ header {
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: center;
-    gap: 2em;
 }
 
 .about-me {
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    width: 90%;
 }
 
 p {
-    width: 50%;
-    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+    border-left: 3px solid black;
+    padding-left: 10px;
 }
 
 /*work styling*/
