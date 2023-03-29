@@ -63,18 +63,17 @@ p {
     gap: 25px;
 }
 
+/*work styling*/
+
 .work {
     display: flex;
     width: 100%;
 }
 
-/*work styling*/
-
 .work-header {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    /* max-height: 50px; */
+    width: 55%;
 }
 
 .work-images {
@@ -85,48 +84,36 @@ p {
 .work-image-top img {
     display: block;
     max-height: 70%;
-    width: 80%;
-    padding: 0 0 1em 0;
+    width: 70%;
     position: relative;
     border: 3px solid black;
+    
 }
 
 .work-image-left img {
-    /* display: flex; */
-    width: 40%;
-    object-fit: cover;
-    overflow: hidden;
+    width: 50%;
+    object-fit: fill;
     border: 3px solid black;
 }
 
-.work-image-left {
-    /* display: flex;
-    position: relative; */
-}
 
 .work-image-right img {
-    /* display: flex; */
-    width: 40%;
-    object-fit: cover;
-    overflow: hidden;
+    width: 50%;
+    object-fit: fill;
     border: 3px solid black;
-}
-
-.work-image-right {
-    /* display: flex;
-    position: relative; */
 }
 
 .work-image-bottom {
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
+    padding-right: 300px;
 }
 
-
+.contacts,
 .work,
 .about-me {
     padding: 30px;
-    clear: both;
     text-align: center;
     color: blueviolet;
 
@@ -141,9 +128,21 @@ a:visited {
 /* footer */
 
 footer {
-    padding: 30px;
-    clear: both;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 30px;
     color: blueviolet;
 }
 
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 50px;
+}
+
+.contacts {
+    border-left: solid 3px black;
+    padding-left: 50px;
+}
