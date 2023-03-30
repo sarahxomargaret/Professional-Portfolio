@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a first draft of a portfolio for future companies to see projects I have worked on. 
+Create a first draft of a portfolio for future companies to see projects I have worked on. When you click on a picture, it will take you to my GitHub. Since I have not created any projects myself, this portfolio will be updated in the future as I create more. 
 
 ## Usage
 
