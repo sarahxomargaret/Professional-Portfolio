@@ -18,6 +18,7 @@ header {
 .name {
     /* padding-left: 10px; */
     padding-top: 10px;
+    color: white;
 }
 
 .profile-pic {
@@ -30,7 +31,7 @@ header {
 }
 
 p {
-    padding: 20px;
+    padding: 50px;
     width: 50%;
 
 }
@@ -43,9 +44,14 @@ p {
     padding: 20px;
 }
 
+.title {
+    padding-left: 50px;
+    color: white;
+}
+
 .image-top img {
     display: flex;
-    /* flex-direction: column; */
+    justify-content: center;
     max-height: 50%;
     width: 50%;
     /* position: relative; */
@@ -68,4 +74,24 @@ p {
     width: 40%;
     /* object-fit: fill; */
     border: 3px solid black;
+}
+
+
+@media screen and (min-width: 768px){
+    .name,
+    .profile-pic {
+        justify-content: space-between;
+    }
+
+    .p {
+        flex-direction: column;
+    }
+
+    .image-top,
+    .image-bottom {
+        width: 100%;
+        object-fit: cover;
+
+    }
+
 }
