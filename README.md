@@ -12,6 +12,8 @@ Create a first draft of a portfolio for future companies to see projects I have 
 
 https://github.com/sarahxomargaret/Professional-Portfolio
 
+https://sarahxomargaret.github.io/Professional-Portfolio/
+
 ## License
 
 MIT License
