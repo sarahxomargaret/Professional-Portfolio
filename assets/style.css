@@ -1,154 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    list-style: none;
-  }
-  
-
 body {
     font-family: "Open Sans", sans-serif;
-}
-
-.image-links {
-    display: contents;
-  }
-
-.profile-pic {
-    align-self: center;
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;
-    margin-top: 25px;
-    object-fit: contain;
-}
-
-.name {
-    padding-left: 45px;
-    padding-top: 10px;
+    color: rgb(188, 150, 224);
+    background-color: rgb(65, 56, 57);
 }
 
 header {
-    color: aliceblue;
+    /* color: aliceblue; */
     background-color: black;
     background-size: cover;
     width: 100%;
     min-height: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.nav-bar {
-    display: flex;
-    margin: 100px;
-    flex-direction: row-reverse;
-
+.name {
+    /* padding-left: 10px; */
+    padding-top: 10px;
 }
 
-/*section styling*/
-
-.content {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-
-.about-me {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
+.profile-pic {
+    /* align-items: center; */
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+    object-fit: contain;
 }
 
 p {
-    display: flex;
-    flex-direction: row;
-    width: 150%;
-    border-left: 3px solid black;
-    padding-left: 10px;
-}
-
-/*work styling*/
-
-.work {
-    display: flex;
-    width: 100%;
-}
-
-.work-header {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-}
-
-.work-images {
-    border-left: solid 3px black;
-    padding-left: 10px;
-}
-
-.work-image-top img {
-    display: block;
-    max-height: 70%;
-    width: 70%;
-    position: relative;
-    border: 3px solid black;
-    
-}
-
-.work-image-left img {
+    padding: 20px;
     width: 50%;
-    object-fit: fill;
-    border: 3px solid black;
+
 }
 
-
-.work-image-right img {
-    width: 50%;
-    object-fit: fill;
-    border: 3px solid black;
-}
-
-.work-image-bottom {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    padding-right: 300px;
-}
-
-.contacts,
+.about-me,
 .work,
-.about-me {
-    padding: 30px;
-    text-align: center;
-    color: blueviolet;
-
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #ede9fe;
-}
-
-/* footer */
-
-footer {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    padding-left: 30px;
-    color: blueviolet;
-}
-
-.contact-header {
+.contact-me {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    padding-left: 50px;
+    padding: 20px;
 }
 
-.contacts {
-    border-left: solid 3px black;
-    padding-left: 50px;
+.image-top img {
+    display: flex;
+    /* flex-direction: column; */
+    max-height: 50%;
+    width: 50%;
+    /* position: relative; */
+    border: 3px solid black;
+
+}
+
+.image-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-left img {
+    width: 40%;
+    /* object-fit: fill; */
+    border: 3px solid black;
+}
+
+.image-right img {
+    width: 40%;
+    /* object-fit: fill; */
+    border: 3px solid black;
 }
