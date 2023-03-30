@@ -10,6 +10,8 @@ Create a first draft of a portfolio for future companies to see projects I have 
 
 ![portfolio2](https://user-images.githubusercontent.com/127162545/228976099-7744b1ce-8eae-4dcc-8aab-2f4c35484f0c.PNG)
 
+https://github.com/sarahxomargaret/Professional-Portfolio
+
 ## License
 
 MIT License
