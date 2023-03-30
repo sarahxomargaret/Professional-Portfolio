@@ -6,6 +6,10 @@ Create a first draft of a portfolio for future companies to see projects I have 
 
 ## Usage
 
+![portfolio](https://user-images.githubusercontent.com/127162545/228976093-d85b9aa0-66a3-4963-b29e-a7e2f6c23db2.PNG)
+
+![portfolio2](https://user-images.githubusercontent.com/127162545/228976099-7744b1ce-8eae-4dcc-8aab-2f4c35484f0c.PNG)
+
 ## License
 
 MIT License
