@@ -6,9 +6,9 @@ Create a first draft of a portfolio for future companies to see projects I have 
 
 ## Mock Up
 
-![portfolio](https://user-images.githubusercontent.com/127162545/228976093-d85b9aa0-66a3-4963-b29e-a7e2f6c23db2.PNG)
+![new portf1](https://user-images.githubusercontent.com/127162545/236055754-6c77f56c-b4a2-4156-92ab-ca3c27cbf806.JPG)
 
-![portfolio2](https://user-images.githubusercontent.com/127162545/228976099-7744b1ce-8eae-4dcc-8aab-2f4c35484f0c.PNG)
+![new portf2](https://user-images.githubusercontent.com/127162545/236055771-283bb3a4-205a-4326-aae1-5a093b5b412e.JPG)
 
 https://github.com/sarahxomargaret/Professional-Portfolio
 
